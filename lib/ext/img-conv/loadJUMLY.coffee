@@ -12,13 +12,13 @@ module.exports =
     fs.write tmp_html, """
       <!DOCTYPE HTML>
       <head>
-        <link rel="stylesheet" href="#{rootdir}/views/static/release/jumly.min.css" />
+        <link rel="stylesheet" href="http://jumly.tmtk.net/release/jumly.min.css" />
       </head>
       <body>
       </body>
-      <script src='#{rootdir}/public/js/jquery.js'></script>
-      <script src='#{rootdir}/public/js/coffee-script.js'></script>
-      <script src='#{rootdir}/views/static/release/jumly.min.js'></script>
+      <script src='http://code.jquery.com/jquery-2.1.0.min.js'></script>
+      <script src='http://coffeescript.org/extras/coffee-script.js'></script>
+      <script src='http://jumly.tmtk.net/release/jumly.min.js'></script>
       <script type='text/coffeescript'>
         window._jumly_code = '''
 #{jumly_code.replace /'''/g, "\\'\\'\\'"}
