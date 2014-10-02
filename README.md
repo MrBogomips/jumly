@@ -1,4 +1,4 @@
-# README [![Build Status](https://travis-ci.org/tmtk75/jumly.png)](https://travis-ci.org/tmtk75/jumly)
+# README [![Build Status](https://travis-ci.org/tmtk75/jumly.png)](https://travis-ci.org/tmtk75/jumly) [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 JUMLY is a JavaScript library.  
 Using JUMLY, you can easily embed UML diagram on your HTML document.  
